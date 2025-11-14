@@ -166,7 +166,7 @@ def poisson_lambdas(df_est: pd.DataFrame) -> pd.DataFrame:
 # ----------------------
 # Paso 6 — Configuración RNG
 # ----------------------
-def set_seed(seed: int = 42):
+def set_seed(seed: int = 123):
     """Fija semilla para reproducibilidad."""
     np.random.seed(seed)
     import random as _random
